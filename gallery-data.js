@@ -1,17 +1,19 @@
-// EDIT THIS FILE: replace each sample SVG path with your own photo, e.g. assets/images/photo01.jpg.
-// Add at least 12 ORIGINAL photographs: 6 from each student.
+// EDIT THIS FILE: Replace sample paths with your own photos.
+// Add at least 12 ORIGINAL photographs: 6 from Tian (Student A) and 6 from Matija (Student B).
 // category must be: "challenge", "solutions", or "behind".
+
 const galleryPhotos = [
-  {src:"assets/images/sample-01.svg",title:"The devices we use",description:"Look at the technology around us.",category:"challenge",author:"Student A"},
-  {src:"assets/images/sample-02.svg",title:"A second life",description:"A device may still be useful after repair.",category:"solutions",author:"Student A"},
-  {src:"assets/images/sample-03.svg",title:"Sorting responsibly",description:"Electronic waste needs appropriate collection.",category:"challenge",author:"Student A"},
-  {src:"assets/images/sample-04.svg",title:"Working together",description:"Our team researches sustainable choices.",category:"behind",author:"Student A"},
-  {src:"assets/images/sample-05.svg",title:"Repair first",description:"Small repairs can extend device life.",category:"solutions",author:"Student A"},
-  {src:"assets/images/sample-06.svg",title:"Our workspace",description:"A look behind the scenes of our project.",category:"behind",author:"Student A"},
-  {src:"assets/images/sample-07.svg",title:"Think before buying",description:"Do we really need another device?",category:"challenge",author:"Student B"},
-  {src:"assets/images/sample-08.svg",title:"Reuse materials",description:"Finding creative ways to reuse resources.",category:"solutions",author:"Student B"},
-  {src:"assets/images/sample-09.svg",title:"Document the problem",description:"We photograph examples from everyday life.",category:"behind",author:"Student B"},
-  {src:"assets/images/sample-10.svg",title:"Make it last",description:"Caring for devices helps reduce waste.",category:"solutions",author:"Student B"},
-  {src:"assets/images/sample-11.svg",title:"What happens next?",description:"We explore what happens to old electronics.",category:"challenge",author:"Student B"},
-  {src:"assets/images/sample-12.svg",title:"Share the message",description:"Our gallery invites visitors to take action.",category:"behind",author:"Student B"}
+  { src: "assets/images/sample-01.svg", title: "Forest Diversity", description: "Healthy forest canopy supporting diverse life.", category: "solutions", author: "Tian" },
+  { src: "assets/images/sample-02.svg", title: "Soil Erosion", description: "Land degradation caused by extreme weather and clearcutting.", category: "challenge", author: "Tian" },
+  { src: "assets/images/sample-03.svg", title: "Reforestation Site", description: "Young native trees planted to restore habitat.", category: "solutions", author: "Tian" },
+  { src: "assets/images/sample-04.svg", title: "Field Research", description: "Documenting local flora and forest health.", category: "behind", author: "Tian" },
+  { src: "assets/images/sample-05.svg", title: "Protected Wetland", description: "Crucial ecosystem providing refuge for wildlife.", category: "solutions", author: "Tian" },
+  { src: "assets/images/sample-06.svg", title: "Team Collaboration", description: "Planning our SDG 15 project showcase.", category: "behind", author: "Tian" },
+  
+  { src: "assets/images/sample-07.svg", title: "Habitat Loss", description: "Urban expansion encroaching on forest borders.", category: "challenge", author: "Matija" },
+  { src: "assets/images/sample-08.svg", title: "Wild Flora", description: "Native flowering plants essential for pollinators.", category: "solutions", author: "Matija" },
+  { src: "assets/images/sample-09.svg", title: "Photo Editing Session", description: "Preparing natural lighting and colors for the gallery.", category: "behind", author: "Matija" },
+  { src: "assets/images/sample-10.svg", title: "Community Trail Maintenance", description: "Preserving hiking paths to reduce soil damage.", category: "solutions", author: "Matija" },
+  { src: "assets/images/sample-11.svg", title: "Invasive Species Spread", description: "Non-native plants taking over natural forest floor.", category: "challenge", author: "Matija" },
+  { src: "assets/images/sample-12.svg", title: "Sharing the Message", description: "Finalizing our interactive quiz for visitors.", category: "behind", author: "Matija" }
 ];
