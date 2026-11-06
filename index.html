@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Step by Step | SDG 12</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="#top">♻ SDG 12</a>
+  <nav><a href="#problem">Problem</a><a href="#gallery">Gallery</a><a href="#sort">Games</a><a href="#quiz">Quiz</a><a href="#poll">Poll</a><a href="#solutions">Solutions</a><a href="#team">Team</a></nav>
+</header>
+
+<main id="top">
+<section class="hero">
+  <p class="tag">Sustainable Development Goal 12: Responsible Consumption and Production</p>
+  <h1>We don’t need more. We need smarter choices.</h1>
+  <p class="lead">Every purchase, every meal and every bin we use shapes the planet. Play, explore and test your habits on this page. ✎ REPLACE</p>
+  <a class="btn" href="#sort">Start with the sorting game</a>
+</section>
+
+<section id="problem" class="wrap">
+  <h2>Small actions, big difference</h2>
+  <div class="two">
+    <article><h3>What is SDG 12?</h3><p>SDG 12 is one of the 17 Sustainable Development Goals set by the United Nations. It aims to reduce waste, use natural resources wisely and make production and shopping less harmful to the environment. ✎ REPLACE</p></article>
+    <article><h3>Where do the problems start?</h3><p>Overconsumption, mass production and wrong waste handling lead to wasted food, wasted products and wasted energy and water. Much of what we throw away could still be used. ✎ REPLACE</p></article>
+  </div>
+</section>
+
+<section id="gallery" class="wrap">
+  <h2>12 ideas for a cleaner planet</h2>
+  <p class="sub">Filter the ideas and tap a card to enlarge it.</p>
+  <div id="filters" class="chips"></div>
+  <div id="grid" class="grid"></div>
+</section>
+
+<section id="sort" class="wrap games">
+  <h2>Game 1: Sort the waste</h2>
+  <p class="sub">Choose the right bin for each item. Ten rounds, one point per correct bin.</p>
+  <div class="card game">
+    <div class="hud"><span>Round <b id="sRound">1</b>/10</span><span>Score <b id="sScore">0</b></span><span>Streak <b id="sStreak">0</b></span></div>
+    <div id="sItem" class="item" aria-live="polite"></div>
+    <div id="sBins" class="bins"></div>
+    <p id="sMsg" class="msg" aria-live="polite"></p>
+    <button id="sRestart" class="btn ghost" hidden>Play again</button>
+  </div>
+
+  <h2 id="memory">Game 2: Green memory</h2>
+  <p class="sub">Find all 8 pairs in as few moves as possible.</p>
+  <div class="card game">
+    <div class="hud"><span>Moves <b id="mMoves">0</b></span><span>Pairs <b id="mPairs">0</b>/8</span><span>Best <b id="mBest">–</b></span><button id="mRestart" class="btn ghost">Restart</button></div>
+    <div id="mBoard" class="board"></div>
+    <p id="mMsg" class="msg" aria-live="polite"></p>
+  </div>
+</section>
+
+<section id="quiz" class="wrap">
+  <h2>How well do you know sustainability?</h2>
+  <div class="card game" id="quizBox"></div>
+</section>
+
+<section id="poll" class="wrap">
+  <h2>Quick poll</h2>
+  <div class="card game">
+    <p class="q">Which habit will you try first? ✎ REPLACE</p>
+    <div id="pollOpts" class="opts"></div>
+    <div id="pollChart" class="chart" aria-live="polite"></div>
+    <p class="note">Votes are saved only in your browser (localStorage). This is a demo, not a shared poll. <button id="pollReset" class="link">Reset</button></p>
+  </div>
+</section>
+
+<section id="solutions" class="wrap">
+  <h2>Our solutions</h2>
+  <div class="three">
+    <article><h3>Plan before you buy</h3><p>Write a list and ask: do I need it? ✎ REPLACE</p></article>
+    <article><h3>Repair and reuse</h3><p>Fix, swap or borrow before buying new. ✎ REPLACE</p></article>
+    <article><h3>Waste less food</h3><p>Cook leftovers and store food well. ✎ REPLACE</p></article>
+  </div>
+  <h3 class="mt">Project timeline</h3>
+  <ol class="steps">
+    <li><b>Week 1</b> Chose SDG 12 and researched the problem ✎ REPLACE</li>
+    <li><b>Week 2</b> Took photos and built the gallery ✎ REPLACE</li>
+    <li><b>Week 3</b> Made games, quiz and poll ✎ REPLACE</li>
+    <li><b>Week 4</b> Recorded videos and published the site ✎ REPLACE</li>
+  </ol>
+</section>
+
+<section id="videos" class="wrap">
+  <h2>Meet the team in video</h2>
+  <div class="two">
+    <iframe src="https://www.youtube-nocookie.com/embed/-pc6gd8o9B4" title="Student introduction 1" loading="lazy" allowfullscreen></iframe>
+    <div class="ph">✎ REPLACE: embed the second introduction video here</div>
+  </div>
+</section>
+
+<section id="team" class="wrap">
+  <h2>About us</h2>
+  <div class="two">
+    <article><h3>Matija Feltrin</h3><p>Role and contribution: ✎ REPLACE</p></article>
+    <article><h3>Tian Eržen</h3><p>Role and contribution: ✎ REPLACE</p></article>
+  </div>
+  <h3 class="mt">Conclusion</h3>
+  <p>Responsible choices start with small steps. ✎ REPLACE with your final message.</p>
+  <h3 class="mt">Sources</h3>
+  <ul><li><a href="https://sdgs.un.org/goals/goal12" target="_blank" rel="noopener">UN: Goal 12</a></li></ul>
+</section>
+</main>
+
+<footer>Authors: Matija Feltrin and Tian Eržen · <a href="#top">Back to top</a></footer>
+
+<div id="lb" class="lb" hidden role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button id="lbClose" aria-label="Close">×</button>
+  <button id="lbPrev" aria-label="Previous">‹</button>
+  <figure><div id="lbImg"></div><figcaption id="lbCap"></figcaption></figure>
+  <button id="lbNext" aria-label="Next">›</button>
+</div>
+
+<script src="gallery-data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
