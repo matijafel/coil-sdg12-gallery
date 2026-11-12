@@ -270,19 +270,21 @@ main{min-height:0}
 // Put your photos in assets/images/ and set "src", e.g. "assets/images/matija-01.jpg".
 // While "src" is empty, an emoji tile is shown instead. Then edit the titles, texts, categories and authors.
 const gallery = [
-  { src: "                 ", emoji: "🛍️", cat: "Reduce",  author: "Matija",   title: "Reusable bag",   text: "One bag replaces hundreds of plastic ones." },
-  { src: "                 ", emoji: "🚰", cat: "Reduce",  author: "Tian",   title: "Refill bottle",   text: "Tap water instead of single-use bottles." },
-  { src: "                 ", emoji: "🧵", cat: "Reuse",  author: "Matija",   title: "Mended clothes",   text: "Patchwork turns worn trousers into something new." },
-  { src: "                 ", emoji: "📚", cat: "Reuse",  author: "Tian",   title: "Book swap",   text: "Share books instead of buying new ones." },
-  { src: "                 ", emoji: "🫙", cat: "Reuse",  author: "Matija",   title: "Glass jars",   text: "Jars become storage, vases or lunch boxes." },
-  { src: "                 ", emoji: "♻️", cat: "Recycle",  author: "Tian",   title: "Sorting station",   text: "Correct sorting makes recycling work." },
-  { src: "                 ", emoji: "📦", cat: "Recycle",  author: "Matija",   title: "Cardboard",   text: "Flatten boxes and recycle them as paper." },
-  { src: "                 ", emoji: "🍾", cat: "Recycle",  author: "Tian",   title: "Glass bottles",   text: "Glass can be recycled again and again." },
-  { src: "                 ", emoji: "🥕", cat: "Food",  author: "Matija",   title: "Local vegetables",   text: "Local, seasonal food travels less." },
-  { src: "                 ", emoji: "🍲", cat: "Food",  author: "Tian",   title: "Leftover soup",   text: "Leftovers become a new meal." },
-  { src: "                 ", emoji: "🌱", cat: "Food",  author: "Matija",   title: "Home compost",   text: "Peels and coffee grounds feed the soil." },
-  { src: "                 ", emoji: "🚲", cat: "Reduce",  author: "Tian",   title: "Bike to school",   text: "Less fuel, less pollution, more fun." },
+  { src: "images/imagesdijakA/vrecka.jpg", emoji: "🛍️", cat: "Reduce", author: "Matija", title: "Reusable bag", text: "One bag replaces hundreds of plastic ones." },
+  { src: "images/imagesdijakB/glassbottle.jpg", emoji: "🍼", cat: "Reduce", author: "Tian", title: "Refill bottle", text: "Tap water instead of single-use bottles." },
+  { src: "images/imagesdijakA/smetnjakjaoblacila.jpg", emoji: "🧵", cat: "Reuse", author: "Matija", title: "Mended clothes", text: "Patchwork turns worn trousers into something new." },
+  { src: "images/imagesdijakB/knjigobeznica.jpg", emoji: "📚", cat: "Reuse", author: "Tian", title: "Book swap", text: "Share books instead of buying new ones." },
+  { src: "images/imagesdijakA/glassbotless.jpg", emoji: "🫙", cat: "Reuse", author: "Matija", title: "Glass jars", text: "Jars become storage, vases or lunch boxes." },
+  { src: "images/imagesdijakB/smetnjaki.jpg", emoji: "♻️", cat: "Recycle", author: "Tian", title: "Sorting station", text: "Correct sorting makes recycling work." },
+  { src: "images/imagesdijakA/kartonskaskatla.jpg", emoji: "📦", cat: "Recycle", author: "Matija", title: "Cardboard", text: "Flatten boxes and recycle them as paper." },
+  { src: "images/imagesdijakB/steklenice.jpg", emoji: "🍾", cat: "Recycle", author: "Tian", title: "Glass bottles", text: "Glass can be recycled again and again." },
+  { src: "images/imagesdijakA/lokalnazelenjava.jpg", emoji: "🥕", cat: "Food", author: "Matija", title: "Local vegetables", text: "Local, seasonal food travels less." },
+  { src: "images/imagesdijakB/juha.jpg", emoji: "🍲", cat: "Food", author: "Tian", title: "Leftover soup", text: "Leftovers become a new meal." },
+  { src: "images/imagesdijakA/kompoat.jpg", emoji: "🌱", cat: "Food", author: "Matija", title: "Home compost", text: "Peels and coffee grounds feed the soil." },
+  { src: "images/imagesdijakB/kolo.jpg", emoji: "🚲", cat: "Reduce", author: "Tian", title: "Bike to school", text: "Less fuel, less pollution, more fun." }
 ];
+
+const $ = id => document.getElementById(id);
 const $ = id => document.getElementById(id);
 const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.random() * (i + 1) | 0; [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const store = {
